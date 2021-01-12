@@ -25,7 +25,7 @@ public class LoginTest {
     @Test
     public void testLogin() {
        Login Login=new Login();
-       boolean flag=Login.Login("xyz","89000");
+       boolean flag=Login.Login("","");
         assertTrue("logged in with right details", flag);
         // TODO review the generated test code and remove the default call to fail.
         
@@ -33,7 +33,7 @@ public class LoginTest {
     @Test
     public void testLoggin() {
        Login Loggin=new Login();
-       boolean flag=Loggin.Login("x","89");
+       boolean flag=Loggin.Login("","");
         assertFalse("logged in with wrong details", flag);
        
         // TODO review the generated test code and remove the default call to fail.
