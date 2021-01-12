@@ -415,7 +415,7 @@ try{
     pst.setString(1, jTextField7.getText());
     rs=pst.executeQuery();
     if(rs.next()){
-        String add1=rs.getString("Student_Name");
+        String add1=rs.getString("");
          jTextField8.setText(add1);
          String add2=rs.getString("Father_Name");
          jTextField9.setText(add2);
